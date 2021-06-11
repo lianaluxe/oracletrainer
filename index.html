@@ -35,7 +35,7 @@
             #results > span {
                 font-size: 24px;
             }
-            [o1] {
+            [o3] {
                 top: 323px;
                 left: 161px;
             }
@@ -43,7 +43,7 @@
                 top: 287px;
                 left: 127px;
             }
-            [o3] {
+            [o1] {
                 top: 121px;
                 left: 219px
             }
@@ -81,9 +81,9 @@
             <div id="results">
 
             </div>
-            <button onclick="guess('1')" o1>1</button>
-            <button onclick="guess('2')" o2>2</button>
             <button onclick="guess('3')" o3>3</button>
+            <button onclick="guess('2')" o2>2</button>
+            <button onclick="guess('1')" o1>1</button>
             <button onclick="guess('4')" o4>4</button>
             <button onclick="guess('5')" o5>5</button>
             <button onclick="guess('6')" o6>6</button>
@@ -97,7 +97,7 @@
 
     </body>
     <script>
-        const SOUNDS = ["1", "2", "3", "4", "5", "6", "7"]
+        const SOUNDS = ["3", "2", "1", "4", "5", "6", "7"]
         var ORDER = []
         var ORDER_BACK = []
         var GUESSED = []
